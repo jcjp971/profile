@@ -1,0 +1,100 @@
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-size: 16px;
+}
+
+div{
+  padding: 8px 24px;
+  margin: 24px 0;
+  border-radius: 4px;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-size: 32px
+  line-height: 32px;
+}
+
+a {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+a:hover {
+color: orange;
+}
+
+
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 24px 32px;
+  border: 1px solid lightgrey;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-size: 24px;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+/*
+
+Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant. If you check out any website (Medium, Airbnb, etc.), you'll see that the font-size of their headers is quite small.
+*/
+
+
+/*Change the color & text-decoration of all the links
+Add hover effects to links using the pseudo-class a:hover.*/
